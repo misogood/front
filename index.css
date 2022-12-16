@@ -1,0 +1,6 @@
+.nav {
+  border: 5px solid #e0afa0;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
