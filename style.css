@@ -1,0 +1,102 @@
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins">
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+html,
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  line-height: 1.7;
+  margin: 10px;
+  background-color: #463f3a;
+  color: #f5cac3;
+}
+h1 {
+  font-family: "Abril Fatface", serif;
+  font-size: 46px;
+  color: #f4f3ee;
+  text-transform: uppercase;
+}
+
+img,
+video {
+  height: 200px;
+  max-width: 100%;
+}
+
+.nav > div {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: #ffffff;
+  font-family: "Abril Fatface", serif;
+  margin: auto;
+  width: 50%;
+}
+
+.nav > div:nth-child(1) {
+  background-color: #e0afa0;
+}
+
+.nav > div:nth-child(2) {
+  background-color: #e0afa0;
+}
+
+.nav > div:nth-child(3) {
+  background-color: #e0afa0;
+}
+
+.nav > div:nth-child(4) {
+  background-color: #e0afa0;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: 3px underline wavy;
+  color: #f4f3ee;
+}
+a:active {
+  text-decoration: none;
+  background-color: #e6beb2;
+}
+p {
+  color: #8a817c;
+  font-weight: 700;
+  font-size: 25px;
+}
+h3 {
+  color: #bcb8b1;
+}
+hr {
+  background-color: #e0afa0;
+  height: 7px;
+}
+#footer {
+  position: fixed;
+  border-style: solid;
+  padding: ;
+  left: ;
+  bottom: ;
+  width: ;
+  background-color: #d8ded6;
+  text-align: center;
+}
