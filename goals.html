@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI3VHXJylm9ZfIfMn-Y3yvhrrlq978PjubQw&usqp=CAU" />
+
+    <title>My Personal Portfolio</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <style>
+      img {
+        border-radius: 50%;
+        float: left;
+        border-style: double;
+        border-width: 10px;
+        border-color: white;
+        width: 170px;
+        height: 170px;
+        margin-right:10px;
+      }
+      #countdown {
+        text-align: right;
+        border: 2px solid;
+      }
+      .column {
+        float: left;
+        width: 50%;
+        padding: 15px;
+      }
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      ul {
+        color: #8a817c;
+        font-weight: 700;
+        font-size: 25px;
+      }
+      .deadline {
+        font-size: 30px;
+        text-decoration: underline wavy 3px;
+      }
+      .column-two {
+        float:right;
+        width:40%;
+      }
+    </style>
+
+    <!-- import the nav's stylesheet -->
+    <link rel="stylesheet" href="/index.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+
+    <!-- Navigation Bar -->
+
+    <nav class="nav">
+      <div><a href="/index.html">Home</a></div>
+      <div><a href="/aboutme.html">About Me</a></div>
+      <div><a href="/projects.html">Projects</a></div>
+      <div><a href="/goals.html">Goals</a></div>
+    </nav>
+    <!--First container-->
+    <div>
+      <img
+        src="https://cdn.glitch.global/b6e18a81-0a28-41f9-9263-188932427912/cuddling%20cats.jpg?v=1669342000462"
+      />
+      <h1>Goals</h1>
+      <h2 style="font-size: 31px">READ ME! ⬇</h2>
+      <p>
+        I don't exactly have a structured plan for my future. However, I do know
+        some of the things I would like to accomplish. Some of these goals won't
+        relate to school at all, some of them might relate to my desired
+        occupation, and some of them are personal goals. It's just everything
+        that I want for myself before a certain deadline. I might update it and
+        change it every now and again. I just might check off what was
+        accomplished(if I'm feeling like it).
+      </p>
+    </div>
+    <hr />
+    <div>
+      <h3><span id="countdown">Goal countdown started on: 11/30/2022</span></h3>
+    </div>
+    <div class="row">
+      <div class="column">
+        <h2 class="deadline">End of 2022</h2>
+        <ul>
+          <li>End out the year with a 4.0 GPA</li>
+          <li>Finish Track Conditioning</li>
+        </ul>
+      </div>
+      <div class="column column-two">
+        <h2 class="deadline">12 Month Goals</h2>
+        <ul>
+          <li>I want to have above a 4.0 GPA</li>
+          <li>I want to have won a medal at a track meet or at least place.</li>
+          <li>I want to have visited my friends overseas during the summer.</li>
+          <li>
+            I want to be taking the second level of my Software engineering
+            pathway at Pebblebrook.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column column-two">
+        <h2 class="deadline">Next 5 Years</h2>
+        <ul>
+          <li>
+            I want to have graduated highschool with at least a 4.17GPA(I don't
+            know why I chose that number specifically).
+          </li>
+          <li>
+            I want to be pursueing my bachelor's in Computer Science and
+            Business (It's a double major) at MIT.
+          </li>
+          <li>I want to own a nice apartment near my college.</li>
+          <li>
+            I want to have completed two internships related to my desired
+            profession during highschool.
+          </li>
+          <li>
+            I want to be working a part-time job or internship during college.
+          </li>
+          <li>
+            I want to have gained multiple certificates in different programming
+            languages and skills.
+          </li>
+        </ul>
+      </div>
+      <div class="column">
+        <h2 class="deadline">
+          Life Goals(before I'm 6 feet under, unless I'm in a basement)
+        </h2>
+        <ul>
+          <li>I want to own real estate.</li>
+          <li>I want to be wealthy not rich</li>
+          <li>I want to have traveled all over the world.</li>
+          <li>
+            I want to have made a difference in the world or have made a
+            positive and lasting impact on other peoples' lives
+          </li>
+          <li>
+            I want to own over 4 pets. This includes cats, dogs, reptiles, and
+            just random animals. I honestly want a small farm.
+          </li>
+          <li>
+            I want to create my own software company. I want to create apps,
+            websites, cloud softwares, and other things. I hope to have these as
+            subsidiaries.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
